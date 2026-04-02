@@ -1,8 +1,8 @@
 import os
 
 # API Keys — for local lab use. Do not commit real keys to shared repositories.
-ABUSEIPDB_API_KEY = os.environ.get("ABUSEIPDB_KEY", "845c08cd6dd4cba5f02b98eac6311b4a8c5adc58c8d71b494286f04d32e070838af818b23097798c")
-VIRUSTOTAL_API_KEY = os.environ.get("VIRUSTOTAL_KEY", "466b07dedad856d6cc82b832ae7b0dd25d48a6b4ccee6fa95360022b2f468352")
+ABUSEIPDB_API_KEY = os.environ.get("ABUSEIPDB_KEY", "")
+VIRUSTOTAL_API_KEY = os.environ.get("VIRUSTOTAL_KEY", "")
 
 # Classification thresholds
 MALICIOUS_ABUSE_SCORE = 80
